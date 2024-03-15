@@ -186,6 +186,7 @@ h2 {
 #skills img{
     width: 50px;
     margin: 10px;
+    mix-blend-mode: color;
 }
 .background-video {
     position: absolute;

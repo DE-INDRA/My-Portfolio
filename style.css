@@ -16,11 +16,20 @@ a{
 p{
     color: rgb(62, 50, 50);
 }
+.hidden{
+    opacity: 0;
+    transition: all 1000ms ease;
+}
+.show{
+    opacity: 1;
+}
 /*...........NAV SECTION.............*/
 nav{
-    display: grid;
-    grid-template-columns: 40vw 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 17vh;
+    padding:5px 100px;
 }
 .logo{
     font-weight: 500;
@@ -39,13 +48,10 @@ nav{
 .nav-links ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    gap: 70px;
     align-items: center;
     height: 17vh;
     margin: 0px;
-    padding-left:150px;
-    padding-right: 100px;
-
 }
 .nav-links a{
     text-decoration: none;
